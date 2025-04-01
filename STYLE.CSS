@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+   height: 80px;
+   margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: red;
+}
+
+.contenedor{
+    width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+
+.contenedor-zonas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+.zona{
+    border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+}
+
+.titulo-zonas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.zona .textos{
+    height: 100%;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    color: red;
+
+}
+
+.banner{
+    border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+    
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.banner h3{
+
+    color: red;
+}
+
+.titulo-cap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-cap{
+    width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+    display: grid;
+    gap: 20px;
+}
+
+.capacitaciones{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.cap{
+    border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center; 
+}
+
+.cap .textocap{
+    height: 100%;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    color: black
+
+}
+
+.titulo-serie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-serie{
+    width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+    display: grid;
+    gap: 20px;
+}
+
+.series-propedeutica{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.serie{
+    border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center; 
+}
+
+.serie .textoserie{
+    height: 100%;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    color: black
+}
+
+.footer{
+    background-color: #2E3034;
+    padding: 80px 0;
+}
+
+.contenedor-ft{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ft-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.linksft{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.linksft h4{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+
+.social-link a:hover{
+    color: white
+
+}
+
+@media (max-width: 850px){
+    header{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+nav {
+    padding: 10px 0px;
+}
